@@ -1,0 +1,58 @@
+@import url("/styles/breakpoint/footer/md.css");
+footer {
+  padding: 3% 10%;
+}
+
+footer .f-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-top: 1px dashed black;
+  padding-top: 20px;
+}
+
+footer .f-container .links {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .f-container .links a {
+  color: black;
+  text-decoration: none;
+}
+
+footer .f-container .social-media {
+  width: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .f-container .social-media p {
+  color: black;
+}
+
+footer .f-container .social-media .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .f-container .social-media .fab {
+  color: #303030;
+  font-size: 2em;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */

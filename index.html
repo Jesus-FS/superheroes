@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="login/ico" href="/assets/favicon/login.ico">
+    <link rel="stylesheet" href="style.css" />
+    <title>Superheros</title>
+  </head>
+  <body>
+    <section class="hero" id="Shero">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#Shero"><img src="/assets/navbar/logo.png" alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse"
+          style="justify-content: flex-end; color: white"
+          id="navbarSupportedContent"
+        >
+
+          <img class="hk" src="/assets/navbar/hk.png" alt="hk" >
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#anteriores">Heroes anteriores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#">¿Cómo funciona?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#miModal" href="">Iniciar sesión</a>
+
+              <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle"  aria-hidden="true"  >
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img class="cali" src="/assets/login/cali.jpg" alt="cali">
+                    <div class="modal-header">
+                      <h5 class="modal-title" style="color: width;" id="modalTitle">Welcome</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="container-modal">
+                      <div class="login">
+                        <div class="title">
+                          <h2>Inicia sesión</h2>
+                        </div>
+                        <img src="/assets/login/login.png" alt="login">
+                        
+                        <form>
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputText" aria-describedby="name" placeholder="Nombre">
+                          </div>
+                          <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>
+                          
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <i class="fas fa-search" style="margin-left: 30px"></i>
+        </div>
+      </nav>
+
+      <div class="background">
+        <div class="container" id="voteContainer">
+          <p>Dinos tu opinión sobre</p>
+          <h1>Ironman?</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, cum
+            maiores. Velit rerum deserunt repellat, delectus cupiditate beatae
+            nam quos necessitatibus dignissimos labore, totam exercitationem
+            impedit magnam ratione ducimus! Ex?
+          </p>
+          <div class="wiki">
+            <i class="fab fa-wikipedia-w"></i>
+            <a href="https://es.wikipedia.org/wiki/Iron_Man" target="_blank">
+              Más información</a
+            >
+          </div>
+          <p style="font-weight: 700; opacity: 1">¿Cuál es tu voto?</p>
+        </div>
+
+        <div class="vote" id="voteFrame">
+          <div class="up-container">
+            <button class="up btn btn-secondary" onclick="vote('like')" data-toggle="tooltip" data-placement="bottom" title="Excelente elección sabia que eras inteligente."><i class="fas fa-thumbs-up"></i></button>
+          </div>
+
+          <div class="down-container">
+            <button class="down" onclick="vote('dislike')" data-toggle="tooltip" data-placement="bottom" title="¿Seguro, seguro, seguro?"><i class="fas fa-thumbs-down"></i></button>
+          </div>
+        </div>
+
+        <div class="container Cvote" id="Cvote">
+          <div class="title">
+            <p>Marvel - </p> <h1>Iroman</h1>
+          </div>
+          <div class="imgText">
+            <div class="background" id="changeBG">
+              <i class="fas fa-thumbs-up" id="up"></i>
+              <i class="fas fa-thumbs-down" id="down" style="display: none; transform: scaleX(-1);"></i>
+            </div>
+            <p>¡Tu voto <br> ha sido registrado!</p>
+          </div>
+          <p style="margin-top: 30px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, at numquam ab corporis voluptatem accusamus, deserunt totam vel</p>
+
+          <div class="back">
+            <button class="push" onclick="back()"><< Volver a votar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="v-container">
+        <div class="green" id="barLike">
+          <i class="fas fa-thumbs-up"></i>
+          <p id="like"></p><p style="margin-left: 3px;">%</p>
+        </div>
+        <div class="orange" id="barDislike">
+          <p id="dislike" style="margin-right: 0px;"></p><p style="margin-left: 3px;">%</p>
+          <i class="fas fa-thumbs-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="lorem">
+        <div class="text one">
+          <p>Lorem Ipsum.Dolor</p>
+          <p style="font-weight: 700; font-size: 2em">IP Lorem ip.</p>
+        </div>
+
+        <div class="text two">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+            doloremque aut omnis cum iste, consequuntur maiores voluptatibus
+            placeat nihil distinctio totam magnam laudantium ipsam repudiandae
+            vel delectus, veniam ipsa ea?
+          </p>
+        </div>
+
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="cards-container" id="anteriores">
+        <h1>Super Heroes anteriores</h1>
+      <div class="hero-container">
+        <div class="superman hr">
+          <div class="background">
+            <div class="text">
+              <h1>
+                <div class="up">
+                  <i class="fas fa-thumbs-up"></i>
+                </div>
+                Superman
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium nesciunt quasi enim dolorem.
+              </p>
+              <div class="b-container">
+                <button class="details">Ver detalles</button>
+                <p>
+                  1 mes atras en lorem Dolor
+                </p>
+              </div>
+              <div class="v-container">
+                <div class="green">
+                  <i class="fas fa-thumbs-up"></i>
+                  <p>64%</p>
+                </div>
+                <div class="orange">
+                  <p>36%</p>
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="thor hr">
+          <div class="background">
+            <div class="text">
+              <h1>
+                <div class="down">
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+                Thor
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium nesciunt quasi enim dolorem.
+              </p>
+              <div class="b-container">
+                <button class="details">Ver detalles</button>
+                <p>
+                  1 mes atras en lorem Dolor
+                </p>
+              </div>
+              <div class="v-container">
+                <div class="green">
+                  <i class="fas fa-thumbs-up"></i>
+                  <p>36%</p>
+                </div>
+                <div class="orange">
+                  <p>64%</p>
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-container hc-2">
+        <div class="spiderman hr">
+          <div class="background">
+            <div class="text">
+              <h1>
+                <div class="up">
+                  <i class="fas fa-thumbs-up"></i>
+                </div>
+                Spider-man
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium nesciunt quasi enim dolorem.
+              </p>
+              <div class="b-container">
+                <button class="details">Ver detalles</button>
+                <p>
+                  1 mes atras en lorem Dolor
+                </p>
+              </div>
+              <div class="v-container">
+                <div class="green">
+                  <i class="fas fa-thumbs-up"></i>
+                  <p>64%</p>
+                </div>
+                <div class="orange">
+                  <p>36%</p>
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="batman hr">
+          <div class="background">
+            <div class="text">
+              <h1>
+                <div class="down">
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+                Batman
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium nesciunt quasi enim dolorem.
+              </p>
+              <div class="b-container">
+                <button class="details">Ver detalles</button>
+                <p>
+                  1 mes atras en lorem Dolor
+                </p>
+              </div>
+              <div class="v-container">
+                <div class="green">
+                  <i class="fas fa-thumbs-up"></i>
+                  <p>36%</p>
+                </div>
+                <div class="orange">
+                  <p>64%</p>
+                  <i class="fas fa-thumbs-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="f-container">
+        <div class="links">
+          <a href="">Terminos y condiciones</a>
+          <a href="" style="margin-left: 10px;">Politicas de tratamiento de datos</a>
+          <a href="" style="margin-left: 10px;">Contactenos</a>
+        </div>
+
+        <div class="social-media">
+          <p>Siguenos</p>
+          <div class="icon">
+            <a href="https://www.facebook.com/" target="_blanck"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/" target="_blanck"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/js/vote.js"></script>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+@import url("/styles/breakpoint/cards/sm.css");
+@import url("/styles/breakpoint/cards/md.css");
+.cards {
+  padding: 2% 10%;
+}
+
+.cards .lorem {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ececec;
+  padding: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .lorem .fas {
+  position: absolute;
+  right: 12%;
+  font-size: 1.5em;
+}
+
+.cards .lorem .text p {
+  color: black;
+}
+
+.cards .lorem .one {
+  width: 20%;
+}
+
+.cards .lorem .two {
+  width: 75%;
+}
+
+.cards .cards-container {
+  width: 100%;
+}
+
+.cards .cards-container h1 {
+  margin: 3% 0;
+  color: black;
+  font-weight: 300;
+}
+
+.cards .cards-container .hero-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .cards-container .hero-container .background {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: 3%;
+  z-index: 1;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), color-stop(12%, black), color-stop(26%, black), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, black 12%, black 26%, rgba(0, 212, 255, 0) 100%);
+}
+
+.cards .cards-container .hero-container .background .text {
+  padding: 2% 7%;
+  position: absolute;
+  bottom: 0;
+}
+
+.cards .cards-container .hero-container .background .text h1 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .cards-container .hero-container .background .text h1 .up,
+.cards .cards-container .hero-container .background .text h1 .down {
+  height: 40px;
+  width: 40px;
+  background-color: #00ada4;
+  color: white;
+  left: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: -3%;
+}
+
+.cards .cards-container .hero-container .background .text h1 .up .fas,
+.cards .cards-container .hero-container .background .text h1 .down .fas {
+  font-size: 50%;
+}
+
+.cards .cards-container .hero-container .background .text h1 .down {
+  background-color: #ffa200;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.cards .cards-container .hero-container .background .text .b-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .cards-container .hero-container .background .text .b-container .details {
+  padding: 2%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin: 20px 0;
+  width: 30%;
+}
+
+.cards .cards-container .hero-container .background .text .b-container p {
+  text-align: right;
+  width: 36%;
+}
+
+.cards .cards-container .hero-container .background .text .v-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 120.7%;
+  left: -12.2%;
+  bottom: -10px;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+  width: 64%;
+  background-color: #00ada491;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .green .fas {
+  font-size: 2em;
+  color: white;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .green p {
+  margin-left: 10px;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .orange {
+  width: 36%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #ffa20096;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .orange .fas {
+  font-size: 2em;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin-right: 10%;
+  color: white;
+}
+
+.cards .cards-container .hero-container .background .text .v-container .orange p {
+  margin-right: 10px;
+}
+
+.cards .cards-container .hero-container .superman {
+  background-image: url(/assets/cards/superman2.png);
+  width: 48%;
+  height: 35em;
+  background-repeat: no-repeat;
+}
+
+.cards .cards-container .hero-container .spiderman {
+  background-image: url(/assets/cards/spider-man2.png);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  width: 48%;
+  height: 35em;
+  background-repeat: no-repeat;
+}
+
+.cards .cards-container .hero-container .thor {
+  background-image: url(/assets/cards/thor2.png);
+  width: 48%;
+  height: 35em;
+  background-repeat: no-repeat;
+}
+
+.cards .cards-container .hero-container .thor .background .text .v-container .green {
+  width: 36%;
+}
+
+.cards .cards-container .hero-container .thor .background .text .v-container .orange {
+  width: 64%;
+}
+
+.cards .cards-container .hero-container .batman {
+  background-image: url(/assets/cards/batman2.png);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  width: 48%;
+  height: 35em;
+  background-repeat: no-repeat;
+}
+
+.cards .cards-container .hero-container .batman .background .text .v-container .green {
+  width: 36%;
+}
+
+.cards .cards-container .hero-container .batman .background .text .v-container .orange {
+  width: 64%;
+}
+
+.cards .hc-2 {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin-top: 5%;
+}
+/*# sourceMappingURL=style.css.map */

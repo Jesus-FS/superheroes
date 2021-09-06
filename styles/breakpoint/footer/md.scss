@@ -1,0 +1,25 @@
+@media (max-width: 960px) {
+  .f-container {
+    flex-direction: column !important;
+    text-align: center;
+
+    .links {
+      width: 100% !important;
+      flex-direction: column;
+    }
+
+    .social-media {
+      margin-top: 10px;
+      width: 100% !important;
+      flex-direction: column;
+
+      .icon {
+        display: flex;
+        
+        .fab {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

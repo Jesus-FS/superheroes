@@ -1,0 +1,330 @@
+@import url("/styles/breakpoint/hero/lg.css");
+@import url("/styles/breakpoint/hero/md.css");
+@import url("/styles/breakpoint/hero/sm.css");
+.hero {
+  background-image: url(/assets/hero/background.png);
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .navbar {
+  padding: 2% 0;
+  width: 100%;
+}
+
+.hero .navbar .navbar-collapse {
+  text-align: end;
+}
+
+.hero .navbar .navbar-collapse .hk {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content {
+  background: #0e4c75;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content .cali {
+  width: 5%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content .container-modal {
+  padding: 5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 20;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content .container-modal .login {
+  -webkit-box-shadow: 2px 2px 30px black;
+          box-shadow: 2px 2px 30px black;
+  background: #3282b5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3282b5), to(#1e5577));
+  background: linear-gradient(180deg, #3282b5 0%, #1e5577 100%);
+  background-size: cover;
+  border-radius: 20px;
+  padding: 3%;
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content .container-modal .login img {
+  width: 30%;
+}
+
+.hero .navbar .navbar-nav .modal .modal-content .container-modal .login .form-group {
+  margin: 30px 0;
+  background-color: rgba(128, 128, 128, 0.596);
+}
+
+.hero .navbar .collapse .nav-item a {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+.hero .navbar .collapse .fas {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+.hero .background {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 43%;
+}
+
+.hero .background .container {
+  padding: 20px 40px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.hero .background .container h1 {
+  font-size: 3em;
+}
+
+.hero .background .container p {
+  opacity: 0.6;
+}
+
+.hero .background .container .wiki {
+  margin: 15px 0;
+}
+
+.hero .background .Cvote {
+  padding: 20px 40px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .background .Cvote .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .background .Cvote .title p {
+  font-size: 2em;
+}
+
+.hero .background .Cvote .title h1 {
+  font-size: 2em;
+  margin-left: 7px;
+  margin-bottom: 0;
+}
+
+.hero .background .Cvote .imgText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.hero .background .Cvote .imgText .background {
+  background-color: #00ada4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 30%;
+  padding: 5%;
+}
+
+.hero .background .Cvote .imgText .background .fas {
+  font-size: 4em;
+}
+
+.hero .background .Cvote .imgText p {
+  margin-left: 15px;
+  font-weight: 700;
+  opacity: 1;
+  font-size: 1.5em;
+}
+
+.hero .background .Cvote .back {
+  margin: 30px 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .background .Cvote .back .push {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 3%;
+  width: 60%;
+}
+
+.hero .background .vote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.hero .background .vote .up-container,
+.hero .background .vote .down-container {
+  width: 50%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .background .vote .up-container .up,
+.hero .background .vote .up-container .down,
+.hero .background .vote .down-container .up,
+.hero .background .vote .down-container .down {
+  width: 100%;
+  height: 100%;
+  background-color: #00ada4;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hero .background .vote .up-container .up:hover .fa-thumbs-up,
+.hero .background .vote .up-container .down:hover .fa-thumbs-up,
+.hero .background .vote .down-container .up:hover .fa-thumbs-up,
+.hero .background .vote .down-container .down:hover .fa-thumbs-up {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(-15%);
+          transform: translateY(-15%);
+}
+
+.hero .background .vote .up-container .up:hover .fa-thumbs-down,
+.hero .background .vote .up-container .down:hover .fa-thumbs-down,
+.hero .background .vote .down-container .up:hover .fa-thumbs-down,
+.hero .background .vote .down-container .down:hover .fa-thumbs-down {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(15%);
+          transform: translateY(15%);
+}
+
+.hero .background .vote .up-container .up .fas,
+.hero .background .vote .up-container .down .fas,
+.hero .background .vote .down-container .up .fas,
+.hero .background .vote .down-container .down .fas {
+  font-size: 3em;
+}
+
+.hero .background .vote .up-container .down,
+.hero .background .vote .down-container .down {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  background-color: #ffa300;
+}
+
+.hero .v-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.hero .v-container .green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+  width: 50%;
+  background-color: #00ada491;
+}
+
+.hero .v-container .green .fas {
+  font-size: 2em;
+  color: white;
+}
+
+.hero .v-container .green p {
+  margin-left: 10px;
+}
+
+.hero .v-container .orange {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #ffa20096;
+}
+
+.hero .v-container .orange .fas {
+  font-size: 2em;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin-right: 10%;
+  color: white;
+}
+
+.hero .v-container .orange p {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

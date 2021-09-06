@@ -1,0 +1,26 @@
+@media (max-width: 640px) {
+  .hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero .navbar .navbar-nav .modal {
+    top: -5% !important;
+  }
+  .hero .navbar .navbar-collapse {
+    text-align: center !important;
+  }
+  .hero .navbar .navbar-collapse .hk {
+    display: none !important;
+  }
+  .hero .background {
+    width: 100% !important;
+  }
+  .hero .background .container {
+    padding: 15px 20px !important;
+  }
+  .hero img {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=sm.css.map */

@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+  .cards {
+    .hr {
+      .background {
+        .text {
+          h1 {
+            justify-content: center !important;
+          }
+        }
+      }
+    }
+
+    .b-container {
+      flex-direction: column;
+
+      .details {
+        width: 100% !important;
+      }
+
+      p {
+        text-align: center !important;
+        width: 100% !important;
+      }
+    }
+
+    .v-container {
+      bottom: -7px !important;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .cards .v-container {
+    bottom: -5px !important;
+  }
+}

@@ -1,0 +1,226 @@
+@import url("/styles/breakpoint/cards/sm.css");
+@import url("/styles/breakpoint/cards/md.css");
+
+.cards {
+  padding: 2% 10%;
+
+  .lorem {
+    width: 100%;
+    display: flex;
+    background-color: #ececec;
+    padding: 3%;
+    align-items: center;
+
+    .fas {
+      position: absolute;
+      right: 12%;
+      font-size: 1.5em;
+    }
+
+    .text {
+      p {
+        color: black;
+      }
+    }
+
+    .one {
+      width: 20%;
+    }
+
+    .two {
+      width: 75%;
+    }
+  }
+
+  .cards-container {
+    width: 100%;
+
+    h1 {
+      margin: 3% 0;
+      color: black;
+      font-weight: 300;
+    }
+
+    .hero-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .background {
+        width: 100%;
+        position: relative;
+        height: 100%;
+        padding: 3%;
+        z-index: 1;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 1) 12%,
+          rgba(0, 0, 0, 1) 26%,
+          rgba(0, 212, 255, 0) 100%
+        );
+
+        .text {
+          padding: 2% 7%;
+          position: absolute;
+          bottom: 0;
+          h1 {
+            color: white;
+            display: flex;
+
+            .up,
+            .down {
+              height: 40px;
+              width: 40px;
+              background-color: #00ada4;
+              color: white;
+              left: 0px;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              position: absolute;
+              left: -3%;
+
+              .fas {
+                font-size: 50%;
+              }
+            }
+
+            .down {
+              background-color: #ffa200;
+              transform: scaleX(-1);
+            }
+          }
+          .b-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .details {
+              padding: 2%;
+              background-color: transparent;
+              color: white;
+              border: 1px solid white;
+              margin: 20px 0;
+              width: 30%;
+            }
+
+            p {
+              text-align: right;
+              width: 36%;
+            }
+          }
+
+          .v-container {
+            display: flex;
+            position: relative;
+            width: 120.7%;
+            left: -12.2%;
+            bottom: -10px;
+
+            .green {
+              display: flex;
+              align-items: center;
+              padding: 2%;
+              width: 64%;
+              background-color: #00ada491;
+
+              .fas {
+                font-size: 2em;
+                color: white;
+              }
+
+              p {
+                margin-left: 10px;
+              }
+            }
+
+            .orange {
+              width: 36%;
+              display: flex;
+              align-items: center;
+              text-align: end;
+              justify-content: flex-end;
+              background-color: #ffa20096;
+
+              .fas {
+                font-size: 2em;
+                transform: scaleX(-1);
+                margin-right: 10%;
+                color: white;
+              }
+
+              p {
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+
+      .superman {
+        background-image: url(/assets/cards/superman2.png);
+        width: 48%;
+        height: 35em;
+        background-repeat: no-repeat;
+      }
+
+      .spiderman {
+        background-image: url(/assets/cards/spider-man2.png);
+        transform: scaleX(-1);
+        width: 48%;
+        height: 35em;
+        background-repeat: no-repeat;
+      }
+
+      .thor {
+        background-image: url(/assets/cards/thor2.png);
+        width: 48%;
+        height: 35em;
+        background-repeat: no-repeat;
+
+        .background {
+          .text {
+            .v-container {
+              .green {
+                width: 36%;
+              }
+
+              .orange {
+                width: 64%;
+              }
+            }
+          }
+        }
+      }
+
+      .batman {
+        background-image: url(/assets/cards/batman2.png);
+        transform: scaleX(-1);
+        width: 48%;
+        height: 35em;
+        background-repeat: no-repeat;
+
+        .background {
+          .text {
+            .v-container {
+              .green {
+                width: 36%;
+              }
+
+              .orange {
+                width: 64%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hc-2 {
+    transform: scaleX(-1);
+    margin-top: 5%;
+  }
+}

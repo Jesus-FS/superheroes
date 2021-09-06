@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .hero .background {
+    width: 60% !important;
+  }
+  .hero .Cvote .imgText .background {
+    width: 20% !important;
+  }
+  .hero .Cvote .imgText .background .fas {
+    font-size: 3em !important;
+  }
+}
+/*# sourceMappingURL=lg.css.map */

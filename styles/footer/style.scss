@@ -1,0 +1,43 @@
+@import url('/styles/breakpoint/footer/md.css');
+
+footer {
+  padding: 3% 10%;
+
+  .f-container {
+    display: flex;
+    width: 100%;
+    border-top: 1px dashed black;
+    padding-top: 20px;
+
+    .links {
+      width: 80%;
+      display: flex;
+      align-items: center;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+
+    .social-media {
+      width: 16%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+      color: black;
+      }
+
+      .icon {
+        display: flex;
+      }
+
+      .fab {
+        color: #303030;
+        font-size: 2em;
+        margin-left: 20px;
+      }
+    }
+  }
+}

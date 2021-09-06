@@ -1,0 +1,32 @@
+@media (max-width: 640px) {
+  .hero {
+    align-items: center;
+
+    .navbar {
+      .navbar-nav {
+        .modal {
+          top: -5% !important;
+        }
+      }
+
+      .navbar-collapse {
+        text-align: center !important;
+
+        .hk {
+          display: none !important;
+        }
+      }
+    }
+
+    .background {
+      width: 100% !important;
+      .container {
+        padding: 15px 20px !important;
+      }
+    }
+
+    img {
+      width: 150px;
+    }
+  }
+}

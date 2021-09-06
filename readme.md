@@ -1,0 +1,7 @@
+Ante todo saludarlos y darle las gracias por la oportunidad de presentar esta prueba, me divertí muchísimo haciéndola, ya que pues no solo porque está en furor los superhéroes sino porque soy como medio friki,  con respecto a la realización de la prueba me parece excelente como en ella se descubre que falencias se posee, ya que admito que la prueba esta para hacerla en menos tiempo de lo propuesto, pero tuve que reforzar conceptos que no había aplicado ya hace tiempo.
+
+La prueba esta realizada también para que puedan conocer un poco de mí hay cosas que encontraran en el menú hamburguesa como en los botones de votación (dejen el puntero del ratón asta que despliegue un cuadro) las cuales no pretendo sabotear o modificar lo que debo entregar simplemente arrancarles una sonrisa, decidí crear una sesión de login que se encuentra en iniciar sesión, hay un enlace que te redirecciona a Wikipedia para saber más de Ironman, y también los iconos que se encuentran en el footer, como en la mayoría de las páginas el logo del navbar te redirecciona a la parte superior de la página, esto en caso de que fuese fixed esta parte, mi fuerte fue el poder hacer muy rapido la parte de HTML Y SCSS me gusta la estructura y el orden con el que se hace el código con la ayuda de SCSS, la investigación fue crucial para el guardar los valores de votación con el uso de localstorage.
+
+Para concluir me gustaría anexar esta prueba al portafolio que estoy realizando y quisiera contar con su aprobación si no hay ningún inconveniente.
+
+Muchas gracias.

@@ -1,0 +1,30 @@
+@media (max-width: 640px) {
+  .cards .hr .background .text h1 {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .cards .b-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cards .b-container .details {
+    width: 100% !important;
+  }
+  .cards .b-container p {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .cards .v-container {
+    bottom: -7px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .cards .v-container {
+    bottom: -5px !important;
+  }
+}
+/*# sourceMappingURL=sm.css.map */
