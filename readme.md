@@ -5,3 +5,5 @@ La prueba esta realizada también para que puedan conocer un poco de mí hay cos
 Para concluir me gustaría anexar esta prueba al portafolio que estoy realizando y quisiera contar con su aprobación si no hay ningún inconveniente.
 
 Muchas gracias.
+
+Por favor entrar a la carpeta problemas, ya que hay 2 imágenes que explican el inconveniente que tuve con GitHub.
