@@ -234,6 +234,7 @@
   border: none;
   color: white;
   cursor: pointer;
+  border-radius: 0px;
 }
 
 .hero .background .vote .up-container .up:hover .fa-thumbs-up,
