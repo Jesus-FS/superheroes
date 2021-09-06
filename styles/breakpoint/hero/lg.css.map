@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,MAAM;EACvB,AACE,KADG,CACH,WAAW,CAAC;IACV,KAAK,EAAE,cAAc;GACtB;EAHH,AASM,KATD,CAKH,MAAM,CAEJ,QAAQ,CAEN,WAAW,CAAC;IACV,KAAK,EAAE,cAAc;GAKtB;EAfP,AAYQ,KAZH,CAKH,MAAM,CAEJ,QAAQ,CAEN,WAAW,CAGT,IAAI,CAAC;IACH,SAAS,EAAE,cAAc;GAC1B",
-    "sources": [
-        "lg.scss"
-    ],
-    "names": [],
-    "file": "lg.css"
-}
